@@ -31,12 +31,13 @@
     font-family:monospace;
     font-weight:bold;}
     p{color: rgb(187, 187, 187);
-    font-family: monospace;}
+    font-family:monospace;}
     .castle{width: 40%;}
-    .history{width: 40%;}
+    .history-text{background:rgba(0, 0, 0, 0);
+    width: 40%; height: 100px; overflow-y: auto;}
     .houses-color{width: 52%;}
-    .full-table{background: rgba(146, 138, 138, 0.404);
-    width: 70%;}
+    .full-table{background: rgba(146, 138, 138, 0.829);
+    width: 70%; border: 5px groove;}
     #first-year{text-decoration:underline;}
     .header{color: rgb(180, 154, 177);
     font-family:serif;
@@ -54,13 +55,17 @@
     .double-trouble{color: rgb(230, 161, 121);}
     .hogwarts-choir{color: rgb(119, 118, 117);}
     body{background-color: rgb(20, 20, 20);
-        font-size:15px;}
+    font-size:15px;}
+    #container{border: 5px double rgb(88, 64, 87);
+    border-top:15px solid rgb(88, 64, 87);
+    padding: 15px;}
 </style>
 </head>
 <body>
 
     <!--Draco dormiens nunquam titillandus. Never wake up to a sleeping dragon.-->
 
+<div id="container">
     <h1>All about Hogwarts</h1>
 
     <img class="castle" src="https://burrow.hogwartsishere.com/media/book_covers/hogwarts_aSC10YC.jpg" 
@@ -68,7 +73,7 @@
     
     <h2>History</h2>
 
-    <p class="history">Founded in the <em>10th century</em> by <strong>Godric Gryffindor, Rowena Ravenclaw, 
+    <p class="history-text">Founded in the <em>10th century</em> by <strong>Godric Gryffindor, Rowena Ravenclaw, 
     Helga Hufflepuff and Salazar Slytherin</strong>, Hogwarts was established in the 
     Highlands of Scotland to educate <em>young wizards and witches</em> as well as to keep 
     students safe from muggle persecution. Theory has it that Rowena Ravenclaw came 
@@ -130,7 +135,8 @@
     <ul>
         <li>The academic training consists of 7 courses.</li>
         <li>Quidditch tests are only allowed from the second year.</li>
-        <li>The optional subjects (at least two) and extracurriculars can be chosen from the third year.</li>
+        <li>The optional subjects (at least two) and extracurriculars<br>
+        can be chosen from the third year.</li>
     </ul>
     
     <h3 id="first-year">First Year</h3>
@@ -246,5 +252,6 @@
     <p class="double-trouble">Something wicked this way comes!<br>
         Something wicked this way comes!</p>
 
+</div>
 </body>
 </html>
