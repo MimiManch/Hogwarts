@@ -9,7 +9,7 @@ body
     font-size:15px; text-decoration:none;
     text-shadow: rgb(187, 187, 187) 0.1em 0.2em 0.2em;}
     #gryffindor{color:gold; background-color: rgb(131, 3, 3);}
-    #shield-1{float:right; width:16%;}
+    #shield-1{width:16%; float:right;}
     #hufflepuff{color: rgb(7, 6, 6); background-color: rgb(185, 185, 24);}
     #shield-2{float:right; width:16%; margin-top:6px;}
     #ravenclaw{color: rgb(124, 53, 12); background-color: rgb(16, 0, 109);}
