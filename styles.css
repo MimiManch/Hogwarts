@@ -1,55 +1,42 @@
 body
-
-h1{color: rgb(88, 64, 87); font-family:fantasy; 
+    h1{color: rgb(88, 64, 87); font-family:fantasy; 
     font-size:3em; text-shadow:rgb(173, 148, 173) 0.1em 0.1em 0.2em;}
-    h2{color: rgb(143, 112, 139);
-    font-family:sans-serif;
+    h2{color: rgb(143, 112, 139); font-family:sans-serif;
     font-size:2em;}
-    h3{color: rgb(180, 154, 177);
-    font-family:serif;
+    h3{color: rgb(180, 154, 177); font-family:serif;
     font-size:1.5em;}
-    a{color: rgb(187, 187, 187);
-    font-family:monospace;
-    font-size:15px;
-    text-decoration:none;
+    a{color: rgb(187, 187, 187); font-family:monospace;
+    font-size:15px; text-decoration:none;
     text-shadow: rgb(187, 187, 187) 0.1em 0.2em 0.2em;}
-    #gryffindor{color:gold;
-    background-color: rgb(131, 3, 3);}
-    #hufflepuff{color: rgb(7, 6, 6);
-    background-color: rgb(185, 185, 24);}
-    #ravenclaw{color: rgb(124, 53, 12);
-    background-color: rgb(16, 0, 109);}
-    #slytherin{color: silver;
-    background-color: rgb(2, 71, 12);}
-    li{color: rgb(187, 187, 187);
-    font-family:monospace;
-    font-weight:bold;}
-    p{color: rgb(187, 187, 187);
-    font-family:monospace;}
-    .castle{width: 40%;}
-    .shield{width: 10%; position: absolute; top: 35px; left:390px;}
+    #gryffindor{color:gold; background-color: rgb(131, 3, 3);}
+    #shield-1{float:right; width:16%;}
+    #hufflepuff{color: rgb(7, 6, 6); background-color: rgb(185, 185, 24);}
+    #shield-2{float:right; width:16%; margin-top:5px;}
+    #ravenclaw{color: rgb(124, 53, 12); background-color: rgb(16, 0, 109);}
+    #shield-3{float:right; width:18%; margin-top:6px;}
+    #slytherin{color: silver; background-color: rgb(2, 71, 12);}
+    #shield-4{position:absolute; width:8%; left:550px; top:1225px;}
+    li{color: rgb(187, 187, 187); font-family:monospace; font-weight:bold;}
+    p{color: rgb(187, 187, 187); font-family:monospace;}
+    .castle{width:40%;}
+    .shield{width:10%; position: absolute; top: 35px; left:390px;}
     .history-text{background:rgba(0, 0, 0, 0);
-    width: 40%; height: 100px; overflow-y: auto;}
-    .houses-color{width: 52%;}
+    width:40%; height:100px; overflow-y: auto;}
+    .houses-color{width:52%;}
     .full-table{background: rgba(146, 138, 138, 0.829);
-    width: 70%; border: 5px groove;}
+    width:70%; border:5px groove;}
     #first-year{text-decoration:underline;}
-    .header{color: rgb(180, 154, 177);
-    font-family:serif;
-    font-size:1.5em;
-    text-decoration:underline;}
-    .subjects{color: rgb(187, 187, 187);
-    font-family:monospace;
+    .header{color: rgb(180, 154, 177); font-family:serif;
+    font-size:1.5em; text-decoration:underline;}
+    .subjects{color: rgb(187, 187, 187); font-family:monospace;
     text-align:center;}
     .scarlet{color:rgb(131, 3, 3);}
     .yellow{color:rgb(185, 185, 24);}
     .blue{color:rgb(72, 51, 190);}
     .green{color:rgb(2, 71, 12);}
-    .hogwarts-song{font-style:italic;
-    line-height:1.5em;}
+    .hogwarts-song{font-style:italic; line-height:1.5em;}
     .double-trouble{color: rgb(230, 161, 121);}
     .hogwarts-choir{color: rgb(119, 118, 117);}
-    body{background-color: rgb(0, 0, 0);
-    font-size:15px;}
-    #container{border: 5px double rgb(88, 64, 87);
-    border-top:15px solid rgb(88, 64, 87); padding: 15px;}
+    body{background-color: rgb(0, 0, 0); font-size:15px;}
+    #container{border:5px double rgb(88, 64, 87);
+    border-top:15px solid rgb(88, 64, 87); padding:15px;}
